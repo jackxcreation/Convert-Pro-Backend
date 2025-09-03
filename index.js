@@ -47,7 +47,7 @@ app.post("/login", async (req, res) => {
 });
 
 // Server run
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => {
   console.log(`🚀 Backend running on port ${PORT}`);
 });
